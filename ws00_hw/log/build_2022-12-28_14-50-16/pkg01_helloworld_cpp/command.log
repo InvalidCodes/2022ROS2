@@ -1,0 +1,4 @@
+Invoking command in '/home/ge/Desktop/ros2/ws00_hw/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws00_hw/build/pkg01_helloworld_cpp -- -j16 -l16
+Invoked command in '/home/ge/Desktop/ros2/ws00_hw/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws00_hw/build/pkg01_helloworld_cpp -- -j16 -l16
+Invoking command in '/home/ge/Desktop/ros2/ws00_hw/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/ge/Desktop/ros2/ws00_hw/build/pkg01_helloworld_cpp
+Invoked command in '/home/ge/Desktop/ros2/ws00_hw/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/ge/Desktop/ros2/ws00_hw/build/pkg01_helloworld_cpp

@@ -1,0 +1,49 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ge/Desktop/ros2/ws00_hw/build/pkg03_hellovscode_cpp
+[35m[1mScanning dependencies of target hellovscode[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hellovscode.dir/src/hellovscode.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable hellovscode2[0m
+[ 75%] Built target hellovscode2
+[100%] [32m[1mLinking CXX executable hellovscode[0m
+[100%] Built target hellovscode
+-- Install configuration: ""
+-- Installing: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/lib/pkg03_hellovscode_cpp/hellovscode
+-- Set runtime path of "/home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/lib/pkg03_hellovscode_cpp/hellovscode" to ""
+-- Installing: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/lib/pkg03_hellovscode_cpp/hellovscode2
+-- Set runtime path of "/home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/lib/pkg03_hellovscode_cpp/hellovscode2" to ""
+-- Up-to-date: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/ament_index/resource_index/package_run_dependencies/pkg03_hellovscode_cpp
+-- Up-to-date: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/ament_index/resource_index/parent_prefix_path/pkg03_hellovscode_cpp
+-- Up-to-date: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/path.sh
+-- Installing: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/path.dsv
+-- Up-to-date: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.bash
+-- Up-to-date: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.sh
+-- Up-to-date: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.zsh
+-- Installing: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.dsv
+-- Installing: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/package.dsv
+-- Up-to-date: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/ament_index/resource_index/packages/pkg03_hellovscode_cpp
+-- Up-to-date: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/cmake/pkg03_hellovscode_cppConfig.cmake
+-- Up-to-date: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/cmake/pkg03_hellovscode_cppConfig-version.cmake
+-- Up-to-date: /home/ge/Desktop/ros2/ws00_hw/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/package.xml
