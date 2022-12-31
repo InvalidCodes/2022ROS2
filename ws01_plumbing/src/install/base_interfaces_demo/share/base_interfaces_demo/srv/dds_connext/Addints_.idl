@@ -1,0 +1,50 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from base_interfaces_demo:srv/Addints.idl
+// generated code does not contain a copyright notice
+
+#ifndef __base_interfaces_demo__srv__addints__idl__
+#define __base_interfaces_demo__srv__addints__idl__
+
+
+module base_interfaces_demo {
+
+module srv {
+
+module dds_ {
+
+
+struct Addints_Request_ {
+long num1_;
+long num2_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module base_interfaces_demo
+
+
+module base_interfaces_demo {
+
+module srv {
+
+module dds_ {
+
+
+struct Addints_Response_ {
+long sum_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module base_interfaces_demo
+
+
+#endif  // __base_interfaces_demo__srv__addints__idl__

@@ -1,0 +1,19 @@
+[0.015s] Invoking command in '/home/ge/Desktop/ros2/ws01_plumbing/src/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws01_plumbing/src/install/base_interfaces_demo
+[0.029s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.049s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.210s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.212s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.215s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.228s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[0.605s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.621s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.621s]   rosidl_generate_interfaces() the passed file 'msg/Student.msg' doesn't
+[0.621s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.621s]   '/home/ge/Desktop/ros2/ws01_plumbing/src/base_interfaces_demo'
+[0.621s] Call Stack (most recent call first):
+[0.621s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[0.621s] 
+[0.622s] 
+[0.622s] -- Configuring incomplete, errors occurred!
+[0.622s] See also "/home/ge/Desktop/ros2/ws01_plumbing/src/build/base_interfaces_demo/CMakeFiles/CMakeOutput.log".
+[0.627s] Invoked command in '/home/ge/Desktop/ros2/ws01_plumbing/src/build/base_interfaces_demo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws01_plumbing/src/install/base_interfaces_demo

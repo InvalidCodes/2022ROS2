@@ -1,0 +1,36 @@
+[0.013s] Invoking command in '/home/ge/Desktop/ros2/ws01_plumbing/src/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws01_plumbing/src/install/base_interfaces_demo
+[0.089s] -- The C compiler identification is GNU 9.4.0
+[0.174s] -- The CXX compiler identification is GNU 9.4.0
+[0.178s] -- Check for working C compiler: /usr/bin/cc
+[0.236s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.237s] -- Detecting C compiler ABI info
+[0.302s] -- Detecting C compiler ABI info - done
+[0.317s] -- Detecting C compile features
+[0.318s] -- Detecting C compile features - done
+[0.321s] -- Check for working CXX compiler: /usr/bin/c++
+[0.386s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.387s] -- Detecting CXX compiler ABI info
+[0.461s] -- Detecting CXX compiler ABI info - done
+[0.470s] -- Detecting CXX compile features
+[0.470s] -- Detecting CXX compile features - done
+[0.474s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.496s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.496s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.689s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.694s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.700s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.728s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[1.551s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.576s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.641s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.664s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.664s]   rosidl_generate_interfaces() the passed file 'msg/Student.msg' doesn't
+[1.664s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.664s]   '/home/ge/Desktop/ros2/ws01_plumbing/src/base_interfaces_demo'
+[1.664s] Call Stack (most recent call first):
+[1.664s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[1.664s] 
+[1.664s] 
+[1.664s] -- Configuring incomplete, errors occurred!
+[1.664s] See also "/home/ge/Desktop/ros2/ws01_plumbing/src/build/base_interfaces_demo/CMakeFiles/CMakeOutput.log".
+[1.671s] Invoked command in '/home/ge/Desktop/ros2/ws01_plumbing/src/build/base_interfaces_demo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws01_plumbing/src/install/base_interfaces_demo

@@ -1,0 +1,8 @@
+CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'msg/Student.msg' doesn't
+  exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/ge/Desktop/ros2/ws01_plumbing/src/base_interfaces_demo'
+Call Stack (most recent call first):
+  CMakeLists.txt:25 (rosidl_generate_interfaces)
+
+
