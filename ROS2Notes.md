@@ -264,6 +264,21 @@ ros2 run <包名> <程序名> #ros2 run pkg03_hellovscode_cpp hellovscode2
 
 
 
+### demo
+
+```shell
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws
+git clone https://github.com/ros2/examples src/examples -b foxy
+rosdep install -i --from-path src --rosdistro foxy -y
+colcon build --symlink-install
+. install/setup.zsh
+ros2 run examples_rclcpp_minimal_subscriber subscriber_member_function
+ros2 run examples_rclcpp_minimal_publisher publisher_member_function
+```
+
+
+
 ### 话题通信
 
 ```shell

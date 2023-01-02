@@ -1,0 +1,38 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from more_interfaces:msg/AddressBook.idl
+// generated code does not contain a copyright notice
+
+#ifndef __more_interfaces__msg__address_book__idl__
+#define __more_interfaces__msg__address_book__idl__
+
+
+module more_interfaces {
+
+module msg {
+
+module dds_ {
+
+module AddressBook_Constants {
+const boolean FEMALE_ = TRUE;
+const boolean MALE_ = FALSE;
+
+};
+
+struct AddressBook_ {
+string first_name_;
+string last_name_;
+boolean gender_;
+octet age_;
+string address_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module more_interfaces
+
+
+#endif  // __more_interfaces__msg__address_book__idl__

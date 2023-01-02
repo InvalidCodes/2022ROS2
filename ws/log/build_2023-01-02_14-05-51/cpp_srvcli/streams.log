@@ -1,0 +1,32 @@
+[0.017s] Invoking command in '/home/ge/Desktop/ros2/ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/cpp_srvcli -- -j16 -l16
+[0.056s] [35m[1mScanning dependencies of target client[0m
+[0.056s] [35m[1mScanning dependencies of target server[0m
+[0.082s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.515s] [ 75%] [32m[1mLinking CXX executable server[0m
+[1.604s] [ 75%] Built target server
+[1.700s] [100%] [32m[1mLinking CXX executable client[0m
+[1.791s] [100%] Built target client
+[1.805s] Invoked command in '/home/ge/Desktop/ros2/ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/cpp_srvcli -- -j16 -l16
+[1.846s] Invoking command in '/home/ge/Desktop/ros2/ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/ge/Desktop/ros2/ws/build/cpp_srvcli
+[1.855s] -- Install configuration: ""
+[1.855s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[1.856s] -- Set runtime path of "/home/ge/Desktop/ros2/ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[1.856s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[1.857s] -- Set runtime path of "/home/ge/Desktop/ros2/ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[1.857s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[1.858s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[1.858s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[1.858s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[1.858s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[1.859s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[1.859s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[1.859s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[1.859s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[1.859s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[1.859s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[1.859s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[1.859s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[1.859s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[1.859s] -- Installing: /home/ge/Desktop/ros2/ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[1.861s] Invoked command in '/home/ge/Desktop/ros2/ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/ge/Desktop/ros2/ws/build/cpp_srvcli

@@ -1,0 +1,83 @@
+[0.115s] Invoking command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer
+[2.200s] -- The C compiler identification is GNU 9.4.0
+[2.200s] -- The CXX compiler identification is GNU 9.4.0
+[2.200s] -- Check for working C compiler: /usr/bin/cc
+[2.200s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.201s] -- Detecting C compiler ABI info
+[2.201s] -- Detecting C compiler ABI info - done
+[2.201s] -- Detecting C compile features
+[2.201s] -- Detecting C compile features - done
+[2.201s] -- Check for working CXX compiler: /usr/bin/c++
+[2.201s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.201s] -- Detecting CXX compiler ABI info
+[2.201s] -- Detecting CXX compiler ABI info - done
+[2.202s] -- Detecting CXX compile features
+[2.202s] -- Detecting CXX compile features - done
+[2.202s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.202s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.202s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.202s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.202s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.202s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.202s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[2.202s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.202s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.203s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.203s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.203s] -- Looking for pthread.h
+[2.203s] -- Looking for pthread.h - found
+[2.203s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.203s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.203s] -- Looking for pthread_create in pthreads
+[2.203s] -- Looking for pthread_create in pthreads - not found
+[2.203s] -- Looking for pthread_create in pthread
+[2.203s] -- Looking for pthread_create in pthread - found
+[2.203s] -- Found Threads: TRUE  
+[2.346s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.441s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.442s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.443s] -- Configured cppcheck include dirs: 
+[2.443s] -- Configured cppcheck exclude dirs and/or files: 
+[2.445s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.445s] -- Configured cpplint exclude dirs and/or files: 
+[2.446s] -- Added test 'lint_cmake' to check CMake code style
+[2.448s] -- Added test 'uncrustify' to check C / C++ code style
+[2.448s] -- Configured uncrustify additional arguments: 
+[2.449s] -- Added test 'xmllint' to check XML markup files
+[2.455s] -- Configuring done
+[2.469s] -- Generating done
+[2.472s] -- Build files have been written to: /home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_timer
+[2.485s] Invoked command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer
+[2.489s] Invoking command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_timer -- -j16 -l16
+[2.540s] [35m[1mScanning dependencies of target timer_member_function[0m
+[2.542s] [35m[1mScanning dependencies of target timer_lambda[0m
+[2.619s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[2.624s] [ 50%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[5.747s] [ 75%] [32m[1mLinking CXX executable timer_member_function[0m
+[6.192s] [ 75%] Built target timer_member_function
+[6.232s] [100%] [32m[1mLinking CXX executable timer_lambda[0m
+[6.613s] [100%] Built target timer_lambda
+[6.642s] Invoked command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_timer -- -j16 -l16
+[7.027s] Invoking command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_timer
+[7.046s] -- Install configuration: ""
+[7.049s] -- Execute custom install script
+[7.051s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[7.080s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[7.097s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[7.118s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[7.136s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[7.147s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[7.159s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[7.180s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[7.193s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[7.204s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[7.214s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[7.227s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[7.250s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[7.265s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[7.301s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[7.334s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[7.358s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[7.431s] Invoked command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_timer

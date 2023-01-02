@@ -1,0 +1,1 @@
+/home/ge/Desktop/ros2/ws/src/examples/rclpy/services/minimal_service/setup.py

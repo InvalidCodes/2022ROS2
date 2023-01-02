@@ -1,0 +1,22 @@
+[0.027s] Invoking command in '/home/ge/Desktop/ros2/ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/cpp_pubsub -- -j16 -l16
+[0.054s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.081s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.257s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.288s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.290s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[0.652s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.686s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.688s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.791s] -- Found tutorial_interfaces: 0.0.0 (/home/ge/Desktop/ros2/ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.874s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.874s]   ament_target_dependencies() the first argument must be a valid target name
+[0.874s] Call Stack (most recent call first):
+[0.874s]   CMakeLists.txt:29 (ament_target_dependencies)
+[0.874s] 
+[0.874s] 
+[0.875s] -- Configuring incomplete, errors occurred!
+[0.875s] See also "/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[0.875s] See also "/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/CMakeError.log".
+[0.880s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.881s] Invoked command in '/home/ge/Desktop/ros2/ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/cpp_pubsub -- -j16 -l16

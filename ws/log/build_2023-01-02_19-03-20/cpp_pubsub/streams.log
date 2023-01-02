@@ -1,0 +1,30 @@
+[0.026s] Invoking command in '/home/ge/Desktop/ros2/ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/cpp_pubsub -- -j16 -l16
+[0.050s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.078s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.254s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.282s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.284s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[0.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.663s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.765s] -- Found tutorial_interfaces: 0.0.0 (/home/ge/Desktop/ros2/ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.838s] CMake Error at CMakeLists.txt:28 (add_executable):
+[0.838s]   add_executable cannot create target "talker" because another target with
+[0.838s]   the same name already exists.  The existing target is an executable created
+[0.838s]   in source directory "/home/ge/Desktop/ros2/ws/src/cpp_pubsub".  See
+[0.838s]   documentation for policy CMP0002 for more details.
+[0.838s] 
+[0.839s] 
+[0.839s] CMake Error at CMakeLists.txt:30 (add_executable):
+[0.839s]   add_executable cannot create target "talker" because another target with
+[0.839s]   the same name already exists.  The existing target is an executable created
+[0.839s]   in source directory "/home/ge/Desktop/ros2/ws/src/cpp_pubsub".  See
+[0.839s]   documentation for policy CMP0002 for more details.
+[0.839s] 
+[0.839s] 
+[0.895s] -- Configuring incomplete, errors occurred!
+[0.895s] See also "/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[0.895s] See also "/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/CMakeError.log".
+[0.900s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.901s] Invoked command in '/home/ge/Desktop/ros2/ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/cpp_pubsub -- -j16 -l16

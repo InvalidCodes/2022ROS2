@@ -1,0 +1,15 @@
+CMake Error at CMakeLists.txt:28 (add_executable):
+  add_executable cannot create target "talker" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/ge/Desktop/ros2/ws/src/cpp_pubsub".  See
+  documentation for policy CMP0002 for more details.
+
+
+CMake Error at CMakeLists.txt:30 (add_executable):
+  add_executable cannot create target "talker" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/ge/Desktop/ros2/ws/src/cpp_pubsub".  See
+  documentation for policy CMP0002 for more details.
+
+
+make: *** [Makefile:310: cmake_check_build_system] Error 1

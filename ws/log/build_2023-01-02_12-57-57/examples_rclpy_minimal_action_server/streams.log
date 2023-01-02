@@ -1,0 +1,29 @@
+[3.057s] Invoking command in '/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_action_server': PYTHONPATH=/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --editable --build-directory /home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_action_server/build --no-deps install_data
+[4.473s] running develop
+[4.473s] running egg_info
+[4.473s] creating examples_rclpy_minimal_action_server.egg-info
+[4.473s] writing examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[4.473s] writing dependency_links to examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[4.473s] writing entry points to examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[4.473s] writing requirements to examples_rclpy_minimal_action_server.egg-info/requires.txt
+[4.473s] writing top-level names to examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[4.473s] writing manifest file 'examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.473s] reading manifest file 'examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.474s] writing manifest file 'examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.474s] running build_ext
+[4.474s] Creating /home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/site.py
+[4.474s] Creating /home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples-rclpy-minimal-action-server.egg-link (link to .)
+[4.474s] Installing server script to /home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.474s] Installing server_defer script to /home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.474s] Installing server_not_composable script to /home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.474s] Installing server_queue_goals script to /home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.474s] Installing server_single_goal script to /home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.475s] 
+[4.475s] Installed /home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_action_server
+[4.475s] running install_data
+[4.475s] creating /home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/share/ament_index
+[4.475s] creating /home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index
+[4.475s] creating /home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[4.475s] copying resource/examples_rclpy_minimal_action_server -> /home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[4.475s] copying package.xml -> /home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server
+[4.536s] Invoked command in '/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_action_server' returned '0': PYTHONPATH=/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --editable --build-directory /home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_action_server/build --no-deps install_data

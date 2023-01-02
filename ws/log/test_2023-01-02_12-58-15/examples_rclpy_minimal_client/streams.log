@@ -1,0 +1,69 @@
+[0.836s] Invoking command in '/home/ge/Desktop/ros2/ws/src/examples/rclpy/services/minimal_client': AMENT_PREFIX_PATH=/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_client/pytest.xml --junit-prefix=examples_rclpy_minimal_client -o cache_dir=/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_client/.pytest_cache PYTHONPATH=/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -m pytest
+[1.318s] [1m============================= test session starts ==============================[0m
+[1.318s] platform linux -- Python 3.8.10, pytest-7.2.0, pluggy-0.13.0
+[1.324s] cachedir: /home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_client/.pytest_cache
+[1.324s] rootdir: /home/ge/Desktop/ros2/ws/src/examples/rclpy, configfile: pytest.ini
+[1.324s] plugins: launch-testing-ros-0.11.7, ament-xmllint-0.9.7, ament-copyright-0.9.7, launch-testing-0.10.10, ament-flake8-0.9.7, ament-lint-0.9.7, ament-pep257-0.9.7, rerunfailures-10.3, repeat-0.9.1, anyio-3.6.2, colcon-core-0.11.0, mock-1.10.4, cov-2.8.1
+[1.366s] [1mcollecting ... [0m[1m
+[1.366s] collected 3 items                                                              [0m
+[1.366s] 
+[1.391s] test/test_copyright.py [32m.[0m[33m                                                 [ 33%][0m
+[1.587s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[1.617s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[1.617s] 
+[1.617s] =================================== FAILURES ===================================
+[1.618s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[1.618s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1.665s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1.666s] [1m[31mE   AssertionError: Found 4 code style errors / warnings:[0m
+[1.666s] [1m[31mE     ./examples_rclpy_minimal_client/client_async_member_function.py:47:1: B902 blind except Exception: statement[0m
+[1.666s] [1m[31mE     ./examples_rclpy_minimal_client/client_async_callback.py:42:1: B902 blind except Exception: statement[0m
+[1.666s] [1m[31mE     ./examples_rclpy_minimal_client/client_async.py:39:1: B902 blind except Exception: statement[0m
+[1.666s] [1m[31mE     ./examples_rclpy_minimal_client/client.py:36:1: B902 blind except Exception: statement[0m
+[1.667s] [1m[31mE   assert 1 == 0[0m
+[1.667s] ----------------------------- Captured stdout call -----------------------------
+[1.667s] 
+[1.667s] ./examples_rclpy_minimal_client/client_async_member_function.py:47:1: B902 blind except Exception: statement
+[1.667s]             except Exception as e:
+[1.668s] ^
+[1.668s] 
+[1.668s] ./examples_rclpy_minimal_client/client_async_callback.py:42:1: B902 blind except Exception: statement
+[1.668s]             except Exception as e:
+[1.668s] ^
+[1.668s] 
+[1.669s] ./examples_rclpy_minimal_client/client_async.py:39:1: B902 blind except Exception: statement
+[1.669s]             except Exception as e:
+[1.669s] ^
+[1.669s] 
+[1.669s] ./examples_rclpy_minimal_client/client.py:36:1: B902 blind except Exception: statement
+[1.669s]     except Exception as e:
+[1.669s] ^
+[1.670s] 
+[1.670s] 4     B902 blind except Exception: statement
+[1.670s] 
+[1.670s] 9 files checked
+[1.670s] 4 errors
+[1.670s] 
+[1.671s] 'B'-type errors: 4
+[1.671s] 
+[1.671s] Checked files:
+[1.671s] 
+[1.672s] * ./setup.py
+[1.672s] * ./examples_rclpy_minimal_client/__init__.py
+[1.672s] * ./examples_rclpy_minimal_client/client_async_member_function.py
+[1.672s] * ./examples_rclpy_minimal_client/client_async_callback.py
+[1.672s] * ./examples_rclpy_minimal_client/client_async.py
+[1.672s] * ./examples_rclpy_minimal_client/client.py
+[1.673s] * ./test/test_flake8.py
+[1.673s] * ./test/test_copyright.py
+[1.673s] * ./test/test_pep257.py
+[1.673s] [33m=============================== warnings summary ===============================[0m
+[1.673s] ../../../../../../../../../../usr/lib/python3/dist-packages/pydocstyle/config.py:6
+[1.673s]   Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+[1.674s] 
+[1.674s] -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[1.674s] - generated xml file: /home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_client/pytest.xml -
+[1.674s] [36m[1m=========================== short test summary info ============================[0m
+[1.674s] [31mFAILED[0m test/test_flake8.py::[1mtest_flake8[0m - AssertionError: Found 4 code style errors / warnings:
+[1.674s] [31m==================== [31m[1m1 failed[0m, [32m2 passed[0m, [33m1 warning[0m[31m in 0.35s[0m[31m ====================[0m
+[1.806s] Invoked command in '/home/ge/Desktop/ros2/ws/src/examples/rclpy/services/minimal_client' returned '1': AMENT_PREFIX_PATH=/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_client/pytest.xml --junit-prefix=examples_rclpy_minimal_client -o cache_dir=/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_client/.pytest_cache PYTHONPATH=/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -m pytest

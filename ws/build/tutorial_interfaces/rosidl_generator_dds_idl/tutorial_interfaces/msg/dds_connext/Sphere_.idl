@@ -1,0 +1,31 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from tutorial_interfaces:msg/Sphere.idl
+// generated code does not contain a copyright notice
+#include "geometry_msgs/msg/dds_connext/Point_.idl"
+
+#ifndef __tutorial_interfaces__msg__sphere__idl__
+#define __tutorial_interfaces__msg__sphere__idl__
+
+
+module tutorial_interfaces {
+
+module msg {
+
+module dds_ {
+
+
+struct Sphere_ {
+geometry_msgs::msg::dds_::Point_ center_;
+double radius_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module tutorial_interfaces
+
+
+#endif  // __tutorial_interfaces__msg__sphere__idl__

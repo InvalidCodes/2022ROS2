@@ -1,0 +1,61 @@
+[0.015s] Invoking command in '/home/ge/Desktop/ros2/ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/cpp_srvcli
+[0.063s] -- The C compiler identification is GNU 9.4.0
+[0.111s] -- The CXX compiler identification is GNU 9.4.0
+[0.116s] -- Check for working C compiler: /usr/bin/cc
+[0.173s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.173s] -- Detecting C compiler ABI info
+[0.233s] -- Detecting C compiler ABI info - done
+[0.245s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.247s] -- Check for working CXX compiler: /usr/bin/c++
+[0.320s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.321s] -- Detecting CXX compiler ABI info
+[0.391s] -- Detecting CXX compiler ABI info - done
+[0.404s] -- Detecting CXX compile features
+[0.404s] -- Detecting CXX compile features - done
+[0.406s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.437s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.437s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.638s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.680s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.688s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.692s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[1.397s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.423s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.528s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.529s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.530s] -- Looking for pthread.h
+[1.593s] -- Looking for pthread.h - found
+[1.594s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.659s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.659s] -- Looking for pthread_create in pthreads
+[1.719s] -- Looking for pthread_create in pthreads - not found
+[1.719s] -- Looking for pthread_create in pthread
+[1.786s] -- Looking for pthread_create in pthread - found
+[1.787s] -- Found Threads: TRUE  
+[1.905s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[2.038s] -- Configuring done
+[2.049s] -- Generating done
+[2.050s] -- Build files have been written to: /home/ge/Desktop/ros2/ws/build/cpp_srvcli
+[2.058s] Invoked command in '/home/ge/Desktop/ros2/ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/cpp_srvcli
+[2.060s] Invoking command in '/home/ge/Desktop/ros2/ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/cpp_srvcli -- -j16 -l16
+[2.093s] [35m[1mScanning dependencies of target server[0m
+[2.093s] [35m[1mScanning dependencies of target client[0m
+[2.104s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[2.104s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[2.121s] [100%] [32m[1mLinking CXX executable client[0m
+[2.121s] [100%] [32m[1mLinking CXX executable server[0m
+[2.153s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.154s] (.text+0x24): undefined reference to `main'
+[2.154s] collect2: error: ld returned 1 exit status
+[2.154s] make[2]: *** [CMakeFiles/client.dir/build.make:146: client] Error 1
+[2.155s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/client.dir/all] Error 2
+[2.155s] make[1]: *** Waiting for unfinished jobs....
+[2.156s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.156s] (.text+0x24): undefined reference to `main'
+[2.156s] collect2: error: ld returned 1 exit status
+[2.157s] make[2]: *** [CMakeFiles/server.dir/build.make:146: server] Error 1
+[2.157s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/server.dir/all] Error 2
+[2.158s] make: *** [Makefile:141: all] Error 2
+[2.159s] Invoked command in '/home/ge/Desktop/ros2/ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/cpp_srvcli -- -j16 -l16

@@ -1,0 +1,540 @@
+[0.000000] (-) TimerEvent: {}
+[0.000170] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000200] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000237] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000262] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000283] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000303] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000320] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000351] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000365] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000383] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000397] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000418] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000433] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000450] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000620] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000638] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000662] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000684] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000701] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000719] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.000739] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.016192] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.016393] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ge/Desktop/ros2/ws/src/more_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/more_interfaces'], 'cwd': '/home/ge/Desktop/ros2/ws/build/more_interfaces', 'env': OrderedDict([('SHELL', '/usr/bin/zsh'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/ge-Lenovo-Legion-R9000P2021H:@/tmp/.ICE-unix/2105,unix/ge-Lenovo-Legion-R9000P2021H:/tmp/.ICE-unix/2105'), ('USER_ZDOTDIR', '/home/ge'), ('QT_ACCESSIBILITY', '1'), ('COLORTERM', 'truecolor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_MENU_PREFIX', 'gnome-'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK_IM_MODULE', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('QT4_IM_MODULE', 'fcitx'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_NAME', 'zh_CN.UTF-8'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XMODIFIERS', '@im=fcitx'), ('DESKTOP_SESSION', 'ubuntu'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '2064'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GTK_MODULES', 'gail:atk-bridge'), ('PWD', '/home/ge/Desktop/ros2/ws/build/more_interfaces'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/116/usr/share/glib-2.0/schemas'), ('LOGNAME', 'ge'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/116/usr/share/code/code'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('WINDOWPATH', '2'), ('VSCODE_INJECTION', '1'), ('HOME', '/home/ge'), ('USERNAME', 'ge'), ('LANG', 'en_US.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('AMENT_PREFIX_PATH', '/home/ge/Desktop/ros2/ws/install/tutorial_interfaces:/home/ge/Desktop/ros2/ws/install/cpp_srvcli:/home/ge/Desktop/ros2/ws/install/cpp_pubsub:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_multithreaded_executor:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_composition:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_action_client:/opt/ros/foxy'), ('GIT_ASKPASS', '/snap/code/116/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/home/ge/Desktop/ros2/ws/install/tutorial_interfaces:/home/ge/Desktop/ros2/ws/install/cpp_srvcli:/home/ge/Desktop/ros2/ws/install/cpp_pubsub:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_multithreaded_executor:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_composition:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy'), ('COLCON_PREFIX_PATH', '/home/ge/Desktop/ros2/ws/install'), ('INVOCATION_ID', '467b9824dae940a9947ddedb8250fd41'), ('MANAGERPID', '1799'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CLUTTER_IM_MODULE', 'fcitx'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/ge/Desktop/ros2/ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_executors:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ZDOTDIR', '/home/ge'), ('USER', 'ge'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-19eb57dde8.sock'), ('DISPLAY', ':0'), ('SHLVL', '2'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LD_LIBRARY_PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/ge/Desktop/ros2/ws/install/tutorial_interfaces/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_composition/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/116/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('JOURNAL_STREAM', '8:33563'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ge/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GDK_BACKEND', 'x11'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/ge/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDMSESSION', 'ubuntu'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4137'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OLDPWD', '/home/ge/Desktop/ros2/ws/src'), ('TERM_PROGRAM', 'vscode'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.098073] (more_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.098482] (-) TimerEvent: {}
+[0.148836] (more_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.154997] (more_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.198649] (-) TimerEvent: {}
+[0.219361] (more_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.220050] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.274434] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.284941] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.285203] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.286939] (more_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.298748] (-) TimerEvent: {}
+[0.347908] (more_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.348976] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.398873] (-) TimerEvent: {}
+[0.423441] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.437046] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.437377] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.439487] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.468312] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.468568] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.498975] (-) TimerEvent: {}
+[0.599261] (-) TimerEvent: {}
+[0.699587] (-) TimerEvent: {}
+[0.716187] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.725671] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.730716] (more_interfaces) StdoutLine: {'line': b'-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1\n'}
+[0.799711] (-) TimerEvent: {}
+[0.900041] (-) TimerEvent: {}
+[1.000336] (-) TimerEvent: {}
+[1.100615] (-) TimerEvent: {}
+[1.200911] (-) TimerEvent: {}
+[1.301254] (-) TimerEvent: {}
+[1.401659] (-) TimerEvent: {}
+[1.450822] (more_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.478064] (more_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.501768] (-) TimerEvent: {}
+[1.536338] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.582342] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.583808] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.584375] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.601904] (-) TimerEvent: {}
+[1.652929] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.653215] (more_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.702032] (-) TimerEvent: {}
+[1.725363] (more_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.725712] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.779848] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.780219] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.802165] (-) TimerEvent: {}
+[1.849549] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.850688] (more_interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.902255] (-) TimerEvent: {}
+[1.970103] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.002379] (-) TimerEvent: {}
+[2.007096] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.102495] (-) TimerEvent: {}
+[2.135060] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.202619] (-) TimerEvent: {}
+[2.223695] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.229374] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.260179] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.262738] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.300354] (more_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.300580] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.300713] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.300834] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.302726] (-) TimerEvent: {}
+[2.331763] (more_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.387939] (more_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.402808] (-) TimerEvent: {}
+[2.421411] (more_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.423691] (more_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ge/Desktop/ros2/ws/build/more_interfaces\n'}
+[2.432192] (more_interfaces) CommandEnded: {'returncode': 0}
+[2.434683] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[2.435225] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ge/Desktop/ros2/ws/build/more_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/ge/Desktop/ros2/ws/build/more_interfaces', 'env': OrderedDict([('SHELL', '/usr/bin/zsh'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/ge-Lenovo-Legion-R9000P2021H:@/tmp/.ICE-unix/2105,unix/ge-Lenovo-Legion-R9000P2021H:/tmp/.ICE-unix/2105'), ('USER_ZDOTDIR', '/home/ge'), ('QT_ACCESSIBILITY', '1'), ('COLORTERM', 'truecolor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_MENU_PREFIX', 'gnome-'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK_IM_MODULE', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('QT4_IM_MODULE', 'fcitx'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_NAME', 'zh_CN.UTF-8'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XMODIFIERS', '@im=fcitx'), ('DESKTOP_SESSION', 'ubuntu'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '2064'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GTK_MODULES', 'gail:atk-bridge'), ('PWD', '/home/ge/Desktop/ros2/ws/build/more_interfaces'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/116/usr/share/glib-2.0/schemas'), ('LOGNAME', 'ge'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/116/usr/share/code/code'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('WINDOWPATH', '2'), ('VSCODE_INJECTION', '1'), ('HOME', '/home/ge'), ('USERNAME', 'ge'), ('LANG', 'en_US.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('AMENT_PREFIX_PATH', '/home/ge/Desktop/ros2/ws/install/tutorial_interfaces:/home/ge/Desktop/ros2/ws/install/cpp_srvcli:/home/ge/Desktop/ros2/ws/install/cpp_pubsub:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_multithreaded_executor:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_composition:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_action_client:/opt/ros/foxy'), ('GIT_ASKPASS', '/snap/code/116/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/home/ge/Desktop/ros2/ws/install/tutorial_interfaces:/home/ge/Desktop/ros2/ws/install/cpp_srvcli:/home/ge/Desktop/ros2/ws/install/cpp_pubsub:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_multithreaded_executor:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_composition:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy'), ('COLCON_PREFIX_PATH', '/home/ge/Desktop/ros2/ws/install'), ('INVOCATION_ID', '467b9824dae940a9947ddedb8250fd41'), ('MANAGERPID', '1799'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CLUTTER_IM_MODULE', 'fcitx'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/ge/Desktop/ros2/ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_executors:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ZDOTDIR', '/home/ge'), ('USER', 'ge'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-19eb57dde8.sock'), ('DISPLAY', ':0'), ('SHLVL', '2'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LD_LIBRARY_PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/ge/Desktop/ros2/ws/install/tutorial_interfaces/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_composition/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/116/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('JOURNAL_STREAM', '8:33563'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ge/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GDK_BACKEND', 'x11'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/ge/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDMSESSION', 'ubuntu'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4137'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OLDPWD', '/home/ge/Desktop/ros2/ws/src'), ('TERM_PROGRAM', 'vscode'), ('_', '/usr/bin/env')]), 'shell': False}
+[2.475814] (more_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.476134] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__dds_connext_idl\x1b[0m\n'}
+[2.476242] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__cpp\x1b[0m\n'}
+[2.483959] (more_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating DDS interfaces\x1b[0m\n'}
+[2.484186] (more_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.502944] (-) TimerEvent: {}
+[2.603244] (-) TimerEvent: {}
+[2.653976] (more_interfaces) StdoutLine: {'line': b'[  5%] Built target more_interfaces__dds_connext_idl\n'}
+[2.679335] (more_interfaces) StdoutLine: {'line': b'[  5%] Built target more_interfaces__cpp\n'}
+[2.686079] (more_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.686441] (more_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.686710] (more_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.686937] (more_interfaces) StdoutLine: {'line': b"[ 13%] \x1b[34m\x1b[1mGenerating C++ type support for RTI Connext (using '/opt/rti.com/rti_connext_dds-5.3.1/bin/rtiddsgen_server')\x1b[0m\n"}
+[2.693821] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.703396] (more_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o\x1b[0m\n'}
+[2.703636] (-) TimerEvent: {}
+[2.740152] (more_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.767867] (more_interfaces) StdoutLine: {'line': b'[ 17%] Built target more_interfaces__rosidl_generator_c\n'}
+[2.776250] (more_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.776459] (more_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.803752] (-) TimerEvent: {}
+[2.864540] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.874774] (more_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.882143] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.882350] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.891885] (more_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.892123] (more_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.903860] (-) TimerEvent: {}
+[2.956116] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.965082] (more_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.972534] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.985688] (more_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o\x1b[0m\n'}
+[2.989234] (more_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.003977] (-) TimerEvent: {}
+[3.013936] (more_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.024467] (more_interfaces) StdoutLine: {'line': b'[ 35%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[3.039686] (more_interfaces) StdoutLine: {'line': b'[ 35%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.093172] (more_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.104083] (-) TimerEvent: {}
+[3.106894] (more_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.129785] (more_interfaces) StdoutLine: {'line': b'[ 39%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[3.172044] (more_interfaces) StdoutLine: {'line': b'[ 39%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.204211] (-) TimerEvent: {}
+[3.230799] (more_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.304329] (-) TimerEvent: {}
+[3.309876] (more_interfaces) StdoutLine: {'line': b'[ 41%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.320718] (more_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.404434] (-) TimerEvent: {}
+[3.504545] (more_interfaces) StdoutLine: {'line': b'INFO com.rti.ndds.nddsgen.Main Running rtiddsgen version 2.5.2, please wait ...\n'}
+[3.504792] (-) TimerEvent: {}
+[3.504931] (more_interfaces) StdoutLine: {'line': b'INFO com.rti.ndds.nddsgen.Main Done\n'}
+[3.543204] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.543517] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_connext_cpp\x1b[0m\n'}
+[3.560371] (more_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o\x1b[0m\n'}
+[3.584940] (more_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/more_interfaces/msg/dds_connext/AddressBook_.cxx.o\x1b[0m\n'}
+[3.585170] (more_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/more_interfaces/msg/dds_connext/AddressBook_Plugin.cxx.o\x1b[0m\n'}
+[3.585252] (more_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/more_interfaces/msg/dds_connext/address_book__type_support.cpp.o\x1b[0m\n'}
+[3.585321] (more_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/more_interfaces/msg/dds_connext/AddressBook_Support.cxx.o\x1b[0m\n'}
+[3.604918] (-) TimerEvent: {}
+[3.705259] (-) TimerEvent: {}
+[3.805644] (-) TimerEvent: {}
+[3.850801] (more_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.905755] (-) TimerEvent: {}
+[3.913826] (more_interfaces) StdoutLine: {'line': b'[ 54%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.994494] (more_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_connext_cpp.so\x1b[0m\n'}
+[4.005853] (-) TimerEvent: {}
+[4.086448] (more_interfaces) StdoutLine: {'line': b'[ 58%] Built target more_interfaces__rosidl_typesupport_connext_cpp\n'}
+[4.094964] (more_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C type support for RTI Connext\x1b[0m\n'}
+[4.105953] (-) TimerEvent: {}
+[4.206228] (-) TimerEvent: {}
+[4.269494] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_connext_c\x1b[0m\n'}
+[4.306363] (-) TimerEvent: {}
+[4.307288] (more_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/more_interfaces/msg/dds_connext/AddressBook_.cxx.o\x1b[0m\n'}
+[4.307498] (more_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/more_interfaces/msg/dds_connext/AddressBook_Plugin.cxx.o\x1b[0m\n'}
+[4.307590] (more_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/more_interfaces/msg/dds_connext/address_book__type_support_c.cpp.o\x1b[0m\n'}
+[4.307674] (more_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/more_interfaces/msg/dds_connext/AddressBook_Support.cxx.o\x1b[0m\n'}
+[4.406488] (-) TimerEvent: {}
+[4.506800] (-) TimerEvent: {}
+[4.607137] (-) TimerEvent: {}
+[4.704830] (more_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_connext_c.so\x1b[0m\n'}
+[4.707216] (-) TimerEvent: {}
+[4.804743] (more_interfaces) StdoutLine: {'line': b'[ 74%] Built target more_interfaces__rosidl_typesupport_connext_c\n'}
+[4.807303] (-) TimerEvent: {}
+[4.812456] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces\x1b[0m\n'}
+[4.820853] (more_interfaces) StdoutLine: {'line': b'[ 74%] Built target more_interfaces\n'}
+[4.830533] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__py\x1b[0m\n'}
+[4.830755] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publish_address_book\x1b[0m\n'}
+[4.838470] (more_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.856363] (more_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o\x1b[0m\n'}
+[4.907406] (-) TimerEvent: {}
+[5.007679] (-) TimerEvent: {}
+[5.107991] (-) TimerEvent: {}
+[5.134739] (more_interfaces) StdoutLine: {'line': b'[ 78%] Built target more_interfaces__py\n'}
+[5.142832] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__python\x1b[0m\n'}
+[5.157420] (more_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__python.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o\x1b[0m\n'}
+[5.208133] (-) TimerEvent: {}
+[5.219857] (more_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__python.so\x1b[0m\n'}
+[5.250245] (more_interfaces) StdoutLine: {'line': b'[ 82%] Built target more_interfaces__python\n'}
+[5.259196] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_connext_c__pyext\x1b[0m\n'}
+[5.259392] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.259468] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.259534] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.273086] (more_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.274146] (more_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_connext_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_connext_c.c.o\x1b[0m\n'}
+[5.274828] (more_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.275803] (more_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.308253] (-) TimerEvent: {}
+[5.331465] (more_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.333767] (more_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.354584] (more_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.354836] (more_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.358292] (more_interfaces) StdoutLine: {'line': b'[ 98%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[5.382492] (more_interfaces) StdoutLine: {'line': b'[ 98%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[5.393118] (more_interfaces) StdoutLine: {'line': b'[ 98%] Built target more_interfaces__rosidl_typesupport_connext_c__pyext\n'}
+[5.402690] (more_interfaces) StdoutLine: {'line': b'[ 98%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.408350] (-) TimerEvent: {}
+[5.509021] (-) TimerEvent: {}
+[5.610006] (-) TimerEvent: {}
+[5.710320] (-) TimerEvent: {}
+[5.810637] (-) TimerEvent: {}
+[5.910953] (-) TimerEvent: {}
+[6.011248] (-) TimerEvent: {}
+[6.111558] (-) TimerEvent: {}
+[6.211856] (-) TimerEvent: {}
+[6.312507] (-) TimerEvent: {}
+[6.412803] (-) TimerEvent: {}
+[6.513649] (-) TimerEvent: {}
+[6.613947] (-) TimerEvent: {}
+[6.714242] (-) TimerEvent: {}
+[6.814532] (-) TimerEvent: {}
+[6.914818] (-) TimerEvent: {}
+[6.959174] (more_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publish_address_book\x1b[0m\n'}
+[7.014954] (-) TimerEvent: {}
+[7.078229] (more_interfaces) StdoutLine: {'line': b'[100%] Built target publish_address_book\n'}
+[7.115586] (-) TimerEvent: {}
+[7.216338] (-) TimerEvent: {}
+[7.317058] (-) TimerEvent: {}
+[7.418083] (-) TimerEvent: {}
+[7.518736] (-) TimerEvent: {}
+[7.619090] (-) TimerEvent: {}
+[7.719886] (-) TimerEvent: {}
+[7.820519] (-) TimerEvent: {}
+[7.921190] (-) TimerEvent: {}
+[8.021911] (-) TimerEvent: {}
+[8.122645] (-) TimerEvent: {}
+[8.223323] (-) TimerEvent: {}
+[8.323948] (-) TimerEvent: {}
+[8.424672] (-) TimerEvent: {}
+[8.525421] (-) TimerEvent: {}
+[8.625875] (-) TimerEvent: {}
+[8.726369] (-) TimerEvent: {}
+[8.827111] (-) TimerEvent: {}
+[8.927613] (-) TimerEvent: {}
+[9.028053] (-) TimerEvent: {}
+[9.128709] (-) TimerEvent: {}
+[9.229394] (-) TimerEvent: {}
+[9.330023] (-) TimerEvent: {}
+[9.430779] (-) TimerEvent: {}
+[9.531163] (-) TimerEvent: {}
+[9.631703] (-) TimerEvent: {}
+[9.732353] (-) TimerEvent: {}
+[9.833001] (-) TimerEvent: {}
+[9.933742] (-) TimerEvent: {}
+[10.034134] (-) TimerEvent: {}
+[10.135025] (-) TimerEvent: {}
+[10.235358] (-) TimerEvent: {}
+[10.335648] (-) TimerEvent: {}
+[10.436327] (-) TimerEvent: {}
+[10.537148] (-) TimerEvent: {}
+[10.637749] (-) TimerEvent: {}
+[10.738065] (-) TimerEvent: {}
+[10.838393] (-) TimerEvent: {}
+[10.938722] (-) TimerEvent: {}
+[11.039093] (-) TimerEvent: {}
+[11.139417] (-) TimerEvent: {}
+[11.239726] (-) TimerEvent: {}
+[11.340053] (-) TimerEvent: {}
+[11.440615] (-) TimerEvent: {}
+[11.541197] (-) TimerEvent: {}
+[11.641884] (-) TimerEvent: {}
+[11.742645] (-) TimerEvent: {}
+[11.843896] (-) TimerEvent: {}
+[11.944686] (-) TimerEvent: {}
+[12.045586] (-) TimerEvent: {}
+[12.146905] (-) TimerEvent: {}
+[12.247768] (-) TimerEvent: {}
+[12.348881] (-) TimerEvent: {}
+[12.449910] (-) TimerEvent: {}
+[12.551227] (-) TimerEvent: {}
+[12.652571] (-) TimerEvent: {}
+[12.753520] (-) TimerEvent: {}
+[12.854647] (-) TimerEvent: {}
+[12.955320] (-) TimerEvent: {}
+[13.056243] (-) TimerEvent: {}
+[13.157508] (-) TimerEvent: {}
+[13.258130] (-) TimerEvent: {}
+[13.359096] (-) TimerEvent: {}
+[13.459897] (-) TimerEvent: {}
+[13.560830] (-) TimerEvent: {}
+[13.662002] (-) TimerEvent: {}
+[13.763000] (-) TimerEvent: {}
+[13.864096] (-) TimerEvent: {}
+[13.964874] (-) TimerEvent: {}
+[14.065794] (-) TimerEvent: {}
+[14.166850] (-) TimerEvent: {}
+[14.267987] (-) TimerEvent: {}
+[14.369127] (-) TimerEvent: {}
+[14.470022] (-) TimerEvent: {}
+[14.571291] (-) TimerEvent: {}
+[14.672418] (-) TimerEvent: {}
+[14.773636] (-) TimerEvent: {}
+[14.875117] (-) TimerEvent: {}
+[14.976107] (-) TimerEvent: {}
+[15.076709] (-) TimerEvent: {}
+[15.177771] (-) TimerEvent: {}
+[15.278540] (-) TimerEvent: {}
+[15.379267] (-) TimerEvent: {}
+[15.480261] (-) TimerEvent: {}
+[15.580623] (-) TimerEvent: {}
+[15.681143] (-) TimerEvent: {}
+[15.781767] (-) TimerEvent: {}
+[15.882353] (-) TimerEvent: {}
+[15.982914] (-) TimerEvent: {}
+[16.083389] (-) TimerEvent: {}
+[16.183956] (-) TimerEvent: {}
+[16.284604] (-) TimerEvent: {}
+[16.385147] (-) TimerEvent: {}
+[16.485562] (-) TimerEvent: {}
+[16.586215] (-) TimerEvent: {}
+[16.686648] (-) TimerEvent: {}
+[16.787253] (-) TimerEvent: {}
+[16.887860] (-) TimerEvent: {}
+[16.988440] (-) TimerEvent: {}
+[17.088818] (-) TimerEvent: {}
+[17.189430] (-) TimerEvent: {}
+[17.290014] (-) TimerEvent: {}
+[17.390566] (-) TimerEvent: {}
+[17.491212] (-) TimerEvent: {}
+[17.591911] (-) TimerEvent: {}
+[17.692461] (-) TimerEvent: {}
+[17.793034] (-) TimerEvent: {}
+[17.893624] (-) TimerEvent: {}
+[17.994015] (-) TimerEvent: {}
+[18.094597] (-) TimerEvent: {}
+[18.194978] (-) TimerEvent: {}
+[18.295583] (-) TimerEvent: {}
+[18.396067] (-) TimerEvent: {}
+[18.496465] (-) TimerEvent: {}
+[18.596944] (-) TimerEvent: {}
+[18.697557] (-) TimerEvent: {}
+[18.797960] (-) TimerEvent: {}
+[18.898410] (-) TimerEvent: {}
+[18.998994] (-) TimerEvent: {}
+[19.099631] (-) TimerEvent: {}
+[19.200339] (-) TimerEvent: {}
+[19.301034] (-) TimerEvent: {}
+[19.401734] (-) TimerEvent: {}
+[19.502496] (-) TimerEvent: {}
+[19.603306] (-) TimerEvent: {}
+[19.703859] (-) TimerEvent: {}
+[19.804421] (-) TimerEvent: {}
+[19.904993] (-) TimerEvent: {}
+[20.005676] (-) TimerEvent: {}
+[20.106429] (-) TimerEvent: {}
+[20.207485] (-) TimerEvent: {}
+[20.308139] (-) TimerEvent: {}
+[20.408884] (-) TimerEvent: {}
+[20.509789] (-) TimerEvent: {}
+[20.610609] (-) TimerEvent: {}
+[20.711269] (-) TimerEvent: {}
+[20.811850] (-) TimerEvent: {}
+[20.912468] (-) TimerEvent: {}
+[21.013125] (-) TimerEvent: {}
+[21.113924] (-) TimerEvent: {}
+[21.214397] (-) TimerEvent: {}
+[21.315560] (-) TimerEvent: {}
+[21.416422] (-) TimerEvent: {}
+[21.516991] (-) TimerEvent: {}
+[21.617715] (-) TimerEvent: {}
+[21.718576] (-) TimerEvent: {}
+[21.819869] (-) TimerEvent: {}
+[21.921428] (-) TimerEvent: {}
+[22.022541] (-) TimerEvent: {}
+[22.123320] (-) TimerEvent: {}
+[22.224058] (-) TimerEvent: {}
+[22.324820] (-) TimerEvent: {}
+[22.425726] (-) TimerEvent: {}
+[22.526691] (-) TimerEvent: {}
+[22.627601] (-) TimerEvent: {}
+[22.728440] (-) TimerEvent: {}
+[22.829408] (-) TimerEvent: {}
+[22.930549] (-) TimerEvent: {}
+[23.031473] (-) TimerEvent: {}
+[23.132405] (-) TimerEvent: {}
+[23.233776] (-) TimerEvent: {}
+[23.334697] (-) TimerEvent: {}
+[23.435425] (-) TimerEvent: {}
+[23.536258] (-) TimerEvent: {}
+[23.600766] (more_interfaces) CommandEnded: {'returncode': 0}
+[23.636351] (-) TimerEvent: {}
+[23.670532] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[23.679283] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ge/Desktop/ros2/ws/build/more_interfaces'], 'cwd': '/home/ge/Desktop/ros2/ws/build/more_interfaces', 'env': OrderedDict([('SHELL', '/usr/bin/zsh'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/ge-Lenovo-Legion-R9000P2021H:@/tmp/.ICE-unix/2105,unix/ge-Lenovo-Legion-R9000P2021H:/tmp/.ICE-unix/2105'), ('USER_ZDOTDIR', '/home/ge'), ('QT_ACCESSIBILITY', '1'), ('COLORTERM', 'truecolor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_MENU_PREFIX', 'gnome-'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK_IM_MODULE', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('QT4_IM_MODULE', 'fcitx'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_NAME', 'zh_CN.UTF-8'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XMODIFIERS', '@im=fcitx'), ('DESKTOP_SESSION', 'ubuntu'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '2064'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GTK_MODULES', 'gail:atk-bridge'), ('PWD', '/home/ge/Desktop/ros2/ws/build/more_interfaces'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/116/usr/share/glib-2.0/schemas'), ('LOGNAME', 'ge'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/116/usr/share/code/code'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('WINDOWPATH', '2'), ('VSCODE_INJECTION', '1'), ('HOME', '/home/ge'), ('USERNAME', 'ge'), ('LANG', 'en_US.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('AMENT_PREFIX_PATH', '/home/ge/Desktop/ros2/ws/install/tutorial_interfaces:/home/ge/Desktop/ros2/ws/install/cpp_srvcli:/home/ge/Desktop/ros2/ws/install/cpp_pubsub:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_multithreaded_executor:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_composition:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_action_client:/opt/ros/foxy'), ('GIT_ASKPASS', '/snap/code/116/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/home/ge/Desktop/ros2/ws/install/tutorial_interfaces:/home/ge/Desktop/ros2/ws/install/cpp_srvcli:/home/ge/Desktop/ros2/ws/install/cpp_pubsub:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_multithreaded_executor:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_timer:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_composition:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors:/opt/ros/foxy'), ('COLCON_PREFIX_PATH', '/home/ge/Desktop/ros2/ws/install'), ('INVOCATION_ID', '467b9824dae940a9947ddedb8250fd41'), ('MANAGERPID', '1799'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CLUTTER_IM_MODULE', 'fcitx'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/ge/Desktop/ros2/ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_subscriber:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_service:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_publisher:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_action_server:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_minimal_action_client:/home/ge/Desktop/ros2/ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/ge/Desktop/ros2/ws/build/examples_rclpy_executors:/home/ge/Desktop/ros2/ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ZDOTDIR', '/home/ge'), ('USER', 'ge'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-19eb57dde8.sock'), ('DISPLAY', ':0'), ('SHLVL', '2'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LD_LIBRARY_PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/ge/Desktop/ros2/ws/install/tutorial_interfaces/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_composition/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/116/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('JOURNAL_STREAM', '8:33563'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ge/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GDK_BACKEND', 'x11'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/ge/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDMSESSION', 'ubuntu'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4137'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OLDPWD', '/home/ge/Desktop/ros2/ws/src'), ('TERM_PROGRAM', 'vscode'), ('_', '/usr/bin/env')]), 'shell': False}
+[23.686104] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.686296] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/more_interfaces/publish_address_book\n'}
+[23.686930] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""\n'}
+[23.687067] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[23.687193] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces\n'}
+[23.687307] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[23.687392] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.687473] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/address_book.h\n'}
+[23.687598] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[23.687723] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.h\n'}
+[23.687796] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.h\n'}
+[23.687897] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.h\n'}
+[23.687971] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.c\n'}
+[23.688050] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[23.688158] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[23.688249] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[23.688364] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""\n'}
+[23.688463] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces\n'}
+[23.688570] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[23.688673] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_connext_c__visibility_control.h\n'}
+[23.688767] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/dds_connext\n'}
+[23.688838] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/address_book__rosidl_typesupport_connext_c.h\n'}
+[23.688925] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_connext_c.so\n'}
+[23.689124] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_connext_c.so" to ""\n'}
+[23.689208] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/msg/dds_connext\n'}
+[23.689303] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/msg/dds_connext/AddressBook_.idl\n'}
+[23.689424] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces\n'}
+[23.689510] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[23.689651] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_connext_cpp__visibility_control.h\n'}
+[23.689760] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/dds_connext\n'}
+[23.689834] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/dds_connext/AddressBook_Plugin.h\n'}
+[23.689933] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/dds_connext/AddressBook_.h\n'}
+[23.690050] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/dds_connext/AddressBook_.cxx\n'}
+[23.690139] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/dds_connext/AddressBook_Plugin.cxx\n'}
+[23.690213] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/dds_connext/AddressBook_Support.h\n'}
+[23.690281] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/dds_connext/AddressBook_Support.cxx\n'}
+[23.690386] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/address_book__rosidl_typesupport_connext_cpp.hpp\n'}
+[23.690469] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_connext_cpp.so\n'}
+[23.690670] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_connext_cpp.so" to ""\n'}
+[23.690778] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces\n'}
+[23.690887] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[23.690954] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[23.691020] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[23.691111] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.691212] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[23.691304] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[23.691410] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces\n'}
+[23.691476] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[23.691540] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[23.691600] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail/dds_fastrtps\n'}
+[23.691696] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.691781] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[23.691871] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[23.691959] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[23.692071] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces\n'}
+[23.692143] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[23.692206] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.692305] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[23.692392] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[23.692484] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[23.692582] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[23.692679] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[23.692777] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[23.692947] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[23.693021] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces\n'}
+[23.693124] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[23.693189] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[23.693264] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__traits.hpp\n'}
+[23.693372] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__builder.hpp\n'}
+[23.693436] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.hpp\n'}
+[23.693512] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/address_book.hpp\n'}
+[23.693627] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces\n'}
+[23.693703] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[23.693774] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[23.693835] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.693918] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.cpp\n'}
+[23.693984] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[23.694067] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[23.694189] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[23.694516] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[23.694618] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[23.694736] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[23.694895] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py\n'}
+[23.730413] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py'...\n"}
+[23.733039] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg\n'}
+[23.733244] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book.py\n'}
+[23.733351] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book_s.c\n'}
+[23.733421] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/__init__.py\n'}
+[23.733534] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so\n'}
+[23.733941] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[23.734161] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[23.734540] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[23.734755] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[23.735184] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[23.735383] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[23.735792] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[23.735911] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__python.so\n'}
+[23.736168] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ge/Desktop/ros2/ws/install/more_interfaces/lib/libmore_interfaces__python.so" to ""\n'}
+[23.736253] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl\n'}
+[23.736365] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg\n'}
+[23.736435] (-) TimerEvent: {}
+[23.736585] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[23.736810] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[23.736936] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[23.737042] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[23.737131] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[23.737256] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[23.737376] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[23.737504] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[23.737647] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[23.737776] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[23.737891] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[23.738051] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[23.738247] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport.cmake\n'}
+[23.738386] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[23.738574] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[23.738705] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[23.738880] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[23.739016] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[23.739186] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[23.739366] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[23.739511] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[23.739683] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[23.739820] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[23.739949] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[23.740080] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.740224] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.740377] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.740517] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.740654] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[23.740774] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[23.740880] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[23.740966] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[23.741084] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ge/Desktop/ros2/ws/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[23.742976] (more_interfaces) CommandEnded: {'returncode': 0}
+[23.836598] (-) TimerEvent: {}
+[23.850059] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[23.850590] (-) EventReactorShutdown: {}
