@@ -1,0 +1,30 @@
+[0.015s] Invoking command in '/home/ge/Desktop/ros2/ws/src/build/action_tutorials': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/src/build/action_tutorials -- -j16 -l16
+[0.057s] [35m[1mScanning dependencies of target action_server[0m
+[0.069s] [ 50%] Built target fibonacci_action_server
+[0.078s] [ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[2.325s] [100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[2.438s] [100%] Built target action_server
+[2.449s] Invoked command in '/home/ge/Desktop/ros2/ws/src/build/action_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/src/build/action_tutorials -- -j16 -l16
+[2.490s] Invoking command in '/home/ge/Desktop/ros2/ws/src/build/action_tutorials': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/ge/Desktop/ros2/ws/src/build/action_tutorials
+[2.496s] -- Install configuration: ""
+[2.497s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/lib/action_tutorials/fibonacci_action_server
+[2.497s] -- Set runtime path of "/home/ge/Desktop/ros2/ws/src/install/action_tutorials/lib/action_tutorials/fibonacci_action_server" to ""
+[2.497s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/lib/libaction_server.so
+[2.498s] -- Set runtime path of "/home/ge/Desktop/ros2/ws/src/install/action_tutorials/lib/libaction_server.so" to ""
+[2.498s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/ament_index/resource_index/package_run_dependencies/action_tutorials
+[2.498s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/ament_index/resource_index/parent_prefix_path/action_tutorials
+[2.498s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/environment/ament_prefix_path.sh
+[2.499s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/environment/ament_prefix_path.dsv
+[2.499s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/environment/path.sh
+[2.499s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/environment/path.dsv
+[2.499s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/local_setup.bash
+[2.499s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/local_setup.sh
+[2.499s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/local_setup.zsh
+[2.499s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/local_setup.dsv
+[2.499s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/package.dsv
+[2.499s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/ament_index/resource_index/packages/action_tutorials
+[2.500s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/ament_index/resource_index/rclcpp_components/action_tutorials
+[2.500s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/cmake/action_tutorialsConfig.cmake
+[2.500s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/cmake/action_tutorialsConfig-version.cmake
+[2.500s] -- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/package.xml
+[2.501s] Invoked command in '/home/ge/Desktop/ros2/ws/src/build/action_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/ge/Desktop/ros2/ws/src/build/action_tutorials

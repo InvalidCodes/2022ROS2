@@ -1,0 +1,23 @@
+[0.093s] Invoking command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_client -- -j16 -l16
+[0.989s] [100%] Built target client_main
+[0.996s] Invoked command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_client -- -j16 -l16
+[1.049s] Invoking command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_client
+[1.074s] -- Install configuration: ""
+[1.074s] -- Execute custom install script
+[1.074s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[1.074s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[1.074s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[1.074s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[1.075s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[1.075s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[1.075s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[1.075s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[1.075s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[1.075s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[1.078s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[1.078s] -- Symlinking: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[1.082s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[1.088s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[1.088s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[1.088s] -- Up-to-date symlink: /home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[1.151s] Invoked command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_client

@@ -1,1 +1,1 @@
-int64 num
+/home/ge/Desktop/ros2/ws/src/tutorial_interfaces/msg/Num.msg

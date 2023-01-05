@@ -56,17 +56,17 @@ CMAKE_BINARY_DIR = /home/ge/Desktop/ros2/ws/build/cpp_pubsub
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
 
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -90,17 +90,17 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
 
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
@@ -168,30 +168,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named subscriber
+# Target rules for targets named client
 
 # Build rule for target.
-subscriber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber
-.PHONY : subscriber
+client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 client
+.PHONY : client
 
 # fast build rule for target.
-subscriber/fast:
-	$(MAKE) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/build
-.PHONY : subscriber/fast
+client/fast:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+.PHONY : client/fast
 
 #=============================================================================
-# Target rules for targets named publisher
+# Target rules for targets named server
 
 # Build rule for target.
-publisher: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 publisher
-.PHONY : publisher
+server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 server
+.PHONY : server
 
 # fast build rule for target.
-publisher/fast:
-	$(MAKE) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/build
-.PHONY : publisher/fast
+server/fast:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+.PHONY : server/fast
 
 #=============================================================================
 # Target rules for targets named listener
@@ -251,8 +251,8 @@ src/publisher_customize_function.o: src/publisher_customize_function.cpp.o
 
 # target to build an object file
 src/publisher_customize_function.cpp.o:
-	$(MAKE) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/src/publisher_customize_function.cpp.o
-	$(MAKE) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/src/publisher_customize_function.cpp.o
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/publisher_customize_function.cpp.o
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/publisher_customize_function.cpp.o
 .PHONY : src/publisher_customize_function.cpp.o
 
 src/publisher_customize_function.i: src/publisher_customize_function.cpp.i
@@ -261,8 +261,8 @@ src/publisher_customize_function.i: src/publisher_customize_function.cpp.i
 
 # target to preprocess a source file
 src/publisher_customize_function.cpp.i:
-	$(MAKE) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/src/publisher_customize_function.cpp.i
-	$(MAKE) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/src/publisher_customize_function.cpp.i
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/publisher_customize_function.cpp.i
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/publisher_customize_function.cpp.i
 .PHONY : src/publisher_customize_function.cpp.i
 
 src/publisher_customize_function.s: src/publisher_customize_function.cpp.s
@@ -271,8 +271,8 @@ src/publisher_customize_function.s: src/publisher_customize_function.cpp.s
 
 # target to generate assembly for a file
 src/publisher_customize_function.cpp.s:
-	$(MAKE) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/src/publisher_customize_function.cpp.s
-	$(MAKE) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/src/publisher_customize_function.cpp.s
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/publisher_customize_function.cpp.s
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/publisher_customize_function.cpp.s
 .PHONY : src/publisher_customize_function.cpp.s
 
 src/publisher_member_function.o: src/publisher_member_function.cpp.o
@@ -335,12 +335,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/local"
+	@echo "... install/strip"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... subscriber"
-	@echo "... install/strip"
-	@echo "... publisher"
+	@echo "... client"
+	@echo "... install/local"
+	@echo "... server"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"

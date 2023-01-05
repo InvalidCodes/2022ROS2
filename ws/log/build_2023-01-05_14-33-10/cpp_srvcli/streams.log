@@ -1,0 +1,15 @@
+[0.112s] Invoking command in '/home/ge/Desktop/ros2/ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/cpp_srvcli
+[0.580s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.580s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.581s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.581s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.581s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.581s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.581s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[1.067s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.131s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.133s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.326s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.535s] -- Configuring done
+[1.550s] -- Generating done
+[1.552s] -- Build files have been written to: /home/ge/Desktop/ros2/ws/build/cpp_srvcli

@@ -1,0 +1,25 @@
+[0.120s] Invoking command in '/home/ge/Desktop/ros2/ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/action_tutorials_cpp
+[0.597s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.597s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.597s] -- Configuring incomplete, errors occurred!
+[0.597s] See also "/home/ge/Desktop/ros2/ws/build/action_tutorials_cpp/CMakeFiles/CMakeOutput.log".
+[0.600s] CMake Error at CMakeLists.txt:20 (find_package):
+[0.600s]   By not providing "Findaction_tutorials_interfaces/.cmake" in
+[0.600s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.600s]   configuration file provided by "action_tutorials_interfaces/", but CMake
+[0.600s]   did not find one.
+[0.600s] 
+[0.600s]   Could not find a package configuration file provided by
+[0.600s]   "action_tutorials_interfaces/" with any of the following names:
+[0.600s] 
+[0.600s]     action_tutorials_interfaces/Config.cmake
+[0.601s]     action_tutorials_interfaces/-config.cmake
+[0.601s] 
+[0.601s]   Add the installation prefix of "action_tutorials_interfaces/" to
+[0.601s]   CMAKE_PREFIX_PATH or set "action_tutorials_interfaces/_DIR" to a directory
+[0.601s]   containing one of the above files.  If "action_tutorials_interfaces/"
+[0.601s]   provides a separate development package or SDK, be sure it has been
+[0.601s]   installed.
+[0.601s] 
+[0.601s] 
+[0.627s] Invoked command in '/home/ge/Desktop/ros2/ws/build/action_tutorials_cpp' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/action_tutorials_cpp

@@ -53,8 +53,8 @@ CMAKE_BINARY_DIR = /home/ge/Desktop/ros2/ws/build/cpp_pubsub
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/subscriber.dir/all
-all: CMakeFiles/publisher.dir/all
+all: CMakeFiles/client.dir/all
+all: CMakeFiles/server.dir/all
 all: CMakeFiles/listener.dir/all
 all: CMakeFiles/talker.dir/all
 
@@ -66,8 +66,8 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/subscriber.dir/clean
-clean: CMakeFiles/publisher.dir/clean
+clean: CMakeFiles/client.dir/clean
+clean: CMakeFiles/server.dir/clean
 clean: CMakeFiles/listener.dir/clean
 clean: CMakeFiles/talker.dir/clean
 clean: CMakeFiles/cpp_pubsub_uninstall.dir/clean
@@ -76,58 +76,58 @@ clean: CMakeFiles/uninstall.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/subscriber.dir
+# Target rules for target CMakeFiles/client.dir
 
 # All Build rule for target.
-CMakeFiles/subscriber.dir/all:
-	$(MAKE) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/depend
-	$(MAKE) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles --progress-num=5,6 "Built target subscriber"
-.PHONY : CMakeFiles/subscriber.dir/all
+CMakeFiles/client.dir/all:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/depend
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles --progress-num=1,2 "Built target client"
+.PHONY : CMakeFiles/client.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/subscriber.dir/rule: cmake_check_build_system
+CMakeFiles/client.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/subscriber.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/client.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles 0
-.PHONY : CMakeFiles/subscriber.dir/rule
+.PHONY : CMakeFiles/client.dir/rule
 
 # Convenience name for target.
-subscriber: CMakeFiles/subscriber.dir/rule
+client: CMakeFiles/client.dir/rule
 
-.PHONY : subscriber
+.PHONY : client
 
 # clean rule for target.
-CMakeFiles/subscriber.dir/clean:
-	$(MAKE) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/clean
-.PHONY : CMakeFiles/subscriber.dir/clean
+CMakeFiles/client.dir/clean:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/clean
+.PHONY : CMakeFiles/client.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/publisher.dir
+# Target rules for target CMakeFiles/server.dir
 
 # All Build rule for target.
-CMakeFiles/publisher.dir/all:
-	$(MAKE) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/depend
-	$(MAKE) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles --progress-num=3,4 "Built target publisher"
-.PHONY : CMakeFiles/publisher.dir/all
+CMakeFiles/server.dir/all:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/depend
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles --progress-num=5,6 "Built target server"
+.PHONY : CMakeFiles/server.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/publisher.dir/rule: cmake_check_build_system
+CMakeFiles/server.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/publisher.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles 0
-.PHONY : CMakeFiles/publisher.dir/rule
+.PHONY : CMakeFiles/server.dir/rule
 
 # Convenience name for target.
-publisher: CMakeFiles/publisher.dir/rule
+server: CMakeFiles/server.dir/rule
 
-.PHONY : publisher
+.PHONY : server
 
 # clean rule for target.
-CMakeFiles/publisher.dir/clean:
-	$(MAKE) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/clean
-.PHONY : CMakeFiles/publisher.dir/clean
+CMakeFiles/server.dir/clean:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/clean
+.PHONY : CMakeFiles/server.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/listener.dir
@@ -136,7 +136,7 @@ CMakeFiles/publisher.dir/clean:
 CMakeFiles/listener.dir/all:
 	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/depend
 	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles --progress-num=1,2 "Built target listener"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles --progress-num=3,4 "Built target listener"
 .PHONY : CMakeFiles/listener.dir/all
 
 # Build rule for subdir invocation for target.

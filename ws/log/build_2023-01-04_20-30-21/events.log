@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000412] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000443] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000465] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000492] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000509] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000526] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000542] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000569] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000587] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000603] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000620] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000636] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000652] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000667] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000683] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000700] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000715] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000731] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000746] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000762] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000780] (cpp_parameters) JobQueued: {'identifier': 'cpp_parameters', 'dependencies': OrderedDict()}
+[0.000799] (cpp_parameters) JobStarted: {'identifier': 'cpp_parameters'}
+[0.015943] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'cmake'}
+[0.016774] (cpp_parameters) Command: {'cmd': ['/usr/bin/cmake', '/home/ge/Desktop/ros2/ws/src/cpp_parameters', '-DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/cpp_parameters'], 'cwd': '/home/ge/Desktop/ros2/ws/build/cpp_parameters', 'env': OrderedDict([('SHELL', '/usr/bin/zsh'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/ge-Lenovo-Legion-R9000P2021H:@/tmp/.ICE-unix/11725,unix/ge-Lenovo-Legion-R9000P2021H:/tmp/.ICE-unix/11725'), ('USER_ZDOTDIR', '/home/ge'), ('QT_ACCESSIBILITY', '1'), ('COLORTERM', 'truecolor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_MENU_PREFIX', 'gnome-'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK_IM_MODULE', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('QT4_IM_MODULE', 'fcitx'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_NAME', 'zh_CN.UTF-8'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XMODIFIERS', '@im=fcitx'), ('DESKTOP_SESSION', 'ubuntu'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '11684'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GTK_MODULES', 'gail:atk-bridge'), ('PWD', '/home/ge/Desktop/ros2/ws/build/cpp_parameters'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/116/usr/share/glib-2.0/schemas'), ('LOGNAME', 'ge'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/116/usr/share/code/code'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('WINDOWPATH', '2'), ('VSCODE_INJECTION', '1'), ('HOME', '/home/ge'), ('USERNAME', 'ge'), ('LANG', 'en_US.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('GIT_ASKPASS', '/snap/code/116/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('INVOCATION_ID', 'c9e6c05346924facb3489a6de05267c3'), ('MANAGERPID', '11496'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CLUTTER_IM_MODULE', 'fcitx'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ZDOTDIR', '/home/ge'), ('USER', 'ge'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-19eb57dde8.sock'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LD_LIBRARY_PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/116/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('JOURNAL_STREAM', '8:142667'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ge/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GDK_BACKEND', 'x11'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/ge/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDMSESSION', 'ubuntu'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12874'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OLDPWD', '/home/ge/Desktop/ros2/ws'), ('TERM_PROGRAM', 'vscode'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.030690] (cpp_parameters) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.049709] (cpp_parameters) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099500] (-) TimerEvent: {}
+[0.199794] (-) TimerEvent: {}
+[0.208962] (cpp_parameters) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.214553] (cpp_parameters) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.237284] (cpp_parameters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.239396] (cpp_parameters) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.241216] (cpp_parameters) StdoutLine: {'line': b'-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1\n'}
+[0.299917] (-) TimerEvent: {}
+[0.400317] (-) TimerEvent: {}
+[0.500769] (-) TimerEvent: {}
+[0.570579] (cpp_parameters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600873] (-) TimerEvent: {}
+[0.608565] (cpp_parameters) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.609470] (cpp_parameters) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700989] (-) TimerEvent: {}
+[0.754811] (cpp_parameters) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.755430] (cpp_parameters) StderrLine: {'line': b'CMake Error at CMakeLists.txt:22 (add_executable):\n'}
+[0.755552] (cpp_parameters) StderrLine: {'line': b'  Cannot find source file:\n'}
+[0.755633] (cpp_parameters) StderrLine: {'line': b'\n'}
+[0.755716] (cpp_parameters) StderrLine: {'line': b'    src/cpp_parameters_node.cpp\n'}
+[0.755800] (cpp_parameters) StderrLine: {'line': b'\n'}
+[0.755881] (cpp_parameters) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[0.755960] (cpp_parameters) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[0.756042] (cpp_parameters) StderrLine: {'line': b'\n'}
+[0.756124] (cpp_parameters) StderrLine: {'line': b'\n'}
+[0.756262] (cpp_parameters) StderrLine: {'line': b'CMake Error at CMakeLists.txt:22 (add_executable):\n'}
+[0.756355] (cpp_parameters) StderrLine: {'line': b'  No SOURCES given to target: minimal_param_node\n'}
+[0.756442] (cpp_parameters) StderrLine: {'line': b'\n'}
+[0.756527] (cpp_parameters) StderrLine: {'line': b'\n'}
+[0.756607] (cpp_parameters) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[0.761222] (cpp_parameters) CommandEnded: {'returncode': 1}
+[0.789830] (cpp_parameters) JobEnded: {'identifier': 'cpp_parameters', 'rc': 1}
+[0.800331] (-) EventReactorShutdown: {}

@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000730] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000801] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000832] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000850] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000867] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000883] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000908] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000923] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000939] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000954] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000969] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000984] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001004] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001026] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001052] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001079] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001095] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001110] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001126] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001141] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001157] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001172] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.001187] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.001201] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001226] (action_tutorials) JobQueued: {'identifier': 'action_tutorials', 'dependencies': OrderedDict([('action_tutorials_interfaces', '/home/ge/Desktop/ros2/ws/src/install/action_tutorials_interfaces')])}
+[0.001253] (action_tutorials) JobStarted: {'identifier': 'action_tutorials'}
+[0.020460] (action_tutorials) JobProgress: {'identifier': 'action_tutorials', 'progress': 'cmake'}
+[0.021459] (action_tutorials) JobProgress: {'identifier': 'action_tutorials', 'progress': 'build'}
+[0.022493] (action_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ge/Desktop/ros2/ws/src/build/action_tutorials', '--', '-j16', '-l16'], 'cwd': '/home/ge/Desktop/ros2/ws/src/build/action_tutorials', 'env': OrderedDict([('SHELL', '/usr/bin/zsh'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/ge-Lenovo-Legion-R9000P2021H:@/tmp/.ICE-unix/2089,unix/ge-Lenovo-Legion-R9000P2021H:/tmp/.ICE-unix/2089'), ('USER_ZDOTDIR', '/home/ge'), ('QT_ACCESSIBILITY', '1'), ('COLORTERM', 'truecolor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_MENU_PREFIX', 'gnome-'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK_IM_MODULE', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('QT4_IM_MODULE', 'fcitx'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_NAME', 'zh_CN.UTF-8'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XMODIFIERS', '@im=fcitx'), ('DESKTOP_SESSION', 'ubuntu'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '2048'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GTK_MODULES', 'gail:atk-bridge'), ('PWD', '/home/ge/Desktop/ros2/ws/src/build/action_tutorials'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/116/usr/share/glib-2.0/schemas'), ('LOGNAME', 'ge'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/116/usr/share/code/code'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('WINDOWPATH', '2'), ('VSCODE_INJECTION', '1'), ('HOME', '/home/ge'), ('USERNAME', 'ge'), ('LANG', 'en_US.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('GIT_ASKPASS', '/snap/code/116/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('INVOCATION_ID', '09d7149d627142739c32ba185eda7a16'), ('MANAGERPID', '1824'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CLUTTER_IM_MODULE', 'fcitx'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ZDOTDIR', '/home/ge'), ('USER', 'ge'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-19eb57dde8.sock'), ('DISPLAY', ':0'), ('SHLVL', '2'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LD_LIBRARY_PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/116/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('JOURNAL_STREAM', '8:52338'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ge/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GDK_BACKEND', 'x11'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/ge/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDMSESSION', 'ubuntu'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3988'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OLDPWD', '/home/ge/Desktop/ros2/ws/src'), ('TERM_PROGRAM', 'vscode'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.071369] (action_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.095051] (action_tutorials) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099769] (-) TimerEvent: {}
+[0.200007] (-) TimerEvent: {}
+[0.286610] (action_tutorials) StdoutLine: {'line': b'-- Found action_tutorials_interfaces: 0.0.0 (/home/ge/Desktop/ros2/ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)\n'}
+[0.300109] (-) TimerEvent: {}
+[0.309739] (action_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.314566] (action_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.318233] (action_tutorials) StdoutLine: {'line': b'-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1\n'}
+[0.400243] (-) TimerEvent: {}
+[0.500631] (-) TimerEvent: {}
+[0.601032] (-) TimerEvent: {}
+[0.695466] (action_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701129] (-) TimerEvent: {}
+[0.797221] (action_tutorials) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.801226] (-) TimerEvent: {}
+[0.830234] (action_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.831708] (action_tutorials) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.901328] (-) TimerEvent: {}
+[0.946389] (action_tutorials) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[0.968426] (action_tutorials) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[1.001421] (-) TimerEvent: {}
+[1.063778] (action_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.077248] (action_tutorials) StdoutLine: {'line': b'-- Generating done\n'}
+[1.078390] (action_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /home/ge/Desktop/ros2/ws/src/build/action_tutorials\n'}
+[1.101848] (-) TimerEvent: {}
+[1.103526] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_server\x1b[0m\n'}
+[1.118209] (action_tutorials) StdoutLine: {'line': b'[ 50%] Built target fibonacci_action_server\n'}
+[1.118397] (action_tutorials) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o\x1b[0m\n'}
+[1.201967] (-) TimerEvent: {}
+[1.302285] (-) TimerEvent: {}
+[1.306515] (action_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ge/Desktop/ros2/ws/src/action_tutorials/src/fibonacci_action_server.cpp:10:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kaction_tutorials_cpp/visibility_control.h: No such file or directory\n'}
+[1.306765] (action_tutorials) StderrLine: {'line': b'   10 | #include \x1b[01;31m\x1b[K"action_tutorials_cpp/visibility_control.h"\x1b[m\x1b[K\n'}
+[1.306917] (action_tutorials) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.307011] (action_tutorials) StderrLine: {'line': b'compilation terminated.\n'}
+[1.309125] (action_tutorials) StderrLine: {'line': b'make[2]: *** [CMakeFiles/action_server.dir/build.make:63: CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o] Error 1\n'}
+[1.309428] (action_tutorials) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/action_server.dir/all] Error 2\n'}
+[1.309646] (action_tutorials) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.311641] (action_tutorials) CommandEnded: {'returncode': 2}
+[1.372265] (action_tutorials) JobEnded: {'identifier': 'action_tutorials', 'rc': 2}
+[1.383413] (-) EventReactorShutdown: {}

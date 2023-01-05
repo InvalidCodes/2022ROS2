@@ -1,0 +1,20 @@
+[0.132s] Invoking command in '/home/ge/Desktop/ros2/ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/tutorial_interfaces -- -j16 -l16
+[0.469s] [  1%] Built target tutorial_interfaces__dds_connext_idl
+[0.469s] [  2%] Built target tutorial_interfaces__cpp
+[0.470s] [  8%] Built target tutorial_interfaces__rosidl_generator_c
+[0.470s] [ 14%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[0.470s] [ 20%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[0.470s] [ 27%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.470s] [ 38%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[0.470s] [ 51%] Built target tutorial_interfaces__rosidl_typesupport_connext_cpp
+[0.470s] [ 58%] Built target tutorial_interfaces__rosidl_typesupport_c
+[0.470s] [ 64%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[0.470s] [ 83%] Built target tutorial_interfaces__rosidl_typesupport_connext_c
+[0.471s] [ 83%] Built target tutorial_interfaces
+[0.471s] [ 85%] Built target tutorial_interfaces__py
+[0.471s] [ 90%] Built target tutorial_interfaces__python
+[0.471s] [ 92%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.471s] [ 95%] Built target tutorial_interfaces__rosidl_typesupport_connext_c__pyext
+[0.471s] [ 97%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.471s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[0.489s] Invoked command in '/home/ge/Desktop/ros2/ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/tutorial_interfaces -- -j16 -l16

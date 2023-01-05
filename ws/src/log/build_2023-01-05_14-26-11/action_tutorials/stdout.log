@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target action_server[0m
+[ 50%] Built target fibonacci_action_server
+[ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[100%] Built target action_server
+-- Install configuration: ""
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/lib/action_tutorials/fibonacci_action_server
+-- Set runtime path of "/home/ge/Desktop/ros2/ws/src/install/action_tutorials/lib/action_tutorials/fibonacci_action_server" to ""
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/lib/libaction_server.so
+-- Set runtime path of "/home/ge/Desktop/ros2/ws/src/install/action_tutorials/lib/libaction_server.so" to ""
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/ament_index/resource_index/package_run_dependencies/action_tutorials
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/ament_index/resource_index/parent_prefix_path/action_tutorials
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/environment/ament_prefix_path.sh
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/environment/ament_prefix_path.dsv
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/environment/path.sh
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/environment/path.dsv
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/local_setup.bash
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/local_setup.sh
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/local_setup.zsh
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/local_setup.dsv
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/package.dsv
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/ament_index/resource_index/packages/action_tutorials
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/ament_index/resource_index/rclcpp_components/action_tutorials
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/cmake/action_tutorialsConfig.cmake
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/cmake/action_tutorialsConfig-version.cmake
+-- Installing: /home/ge/Desktop/ros2/ws/src/install/action_tutorials/share/action_tutorials/package.xml

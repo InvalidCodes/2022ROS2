@@ -1,9 +1,9 @@
-/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/install/local.dir
+/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/install/strip.dir
 /home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/edit_cache.dir
 /home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/test.dir
-/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/subscriber.dir
-/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/install/strip.dir
-/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/publisher.dir
+/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/client.dir
+/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/install/local.dir
+/home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/server.dir
 /home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/install.dir
 /home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/list_install_components.dir
 /home/ge/Desktop/ros2/ws/build/cpp_pubsub/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+Invoking command in '/home/ge/Desktop/ros2/ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/action_tutorials_cpp
+Invoked command in '/home/ge/Desktop/ros2/ws/build/action_tutorials_cpp' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/action_tutorials_cpp

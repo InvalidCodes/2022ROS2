@@ -1,0 +1,26 @@
+[0.102s] Invoking command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/examples_rclcpp_minimal_client
+[0.562s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.563s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.563s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.563s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.563s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.563s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[1.076s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.204s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.234s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.235s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.351s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.420s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.421s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.421s] -- Configured cppcheck include dirs: 
+[1.421s] -- Configured cppcheck exclude dirs and/or files: 
+[1.421s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.422s] -- Configured cpplint exclude dirs and/or files: 
+[1.422s] -- Added test 'lint_cmake' to check CMake code style
+[1.422s] -- Added test 'uncrustify' to check C / C++ code style
+[1.422s] -- Configured uncrustify additional arguments: 
+[1.423s] -- Added test 'xmllint' to check XML markup files
+[1.426s] -- Configuring done
+[1.434s] -- Generating done
+[1.436s] -- Build files have been written to: /home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_client

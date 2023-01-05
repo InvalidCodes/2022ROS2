@@ -1,0 +1,5 @@
+[0.136s] Invoking command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[0.394s] [ 33%] Built target subscriber_member_function
+[0.395s] [ 66%] Built target subscriber_not_composable
+[0.395s] [100%] Built target subscriber_lambda
+[0.424s] Invoked command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_subscriber -- -j16 -l16

@@ -1,0 +1,6 @@
+Invoking command in '/home/ge/Desktop/ros2/ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws/src/more_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/more_interfaces
+Invoked command in '/home/ge/Desktop/ros2/ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws/src/more_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/more_interfaces
+Invoking command in '/home/ge/Desktop/ros2/ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/more_interfaces -- -j16 -l16
+Invoked command in '/home/ge/Desktop/ros2/ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/more_interfaces -- -j16 -l16
+Invoking command in '/home/ge/Desktop/ros2/ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/ge/Desktop/ros2/ws/build/more_interfaces
+Invoked command in '/home/ge/Desktop/ros2/ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/ge/Desktop/ros2/ws/build/more_interfaces

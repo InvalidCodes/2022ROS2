@@ -1,0 +1,11 @@
+/home/ge/Desktop/ros2/ws/src/build/action_tutorials/CMakeFiles/install/strip.dir
+/home/ge/Desktop/ros2/ws/src/build/action_tutorials/CMakeFiles/install/local.dir
+/home/ge/Desktop/ros2/ws/src/build/action_tutorials/CMakeFiles/install.dir
+/home/ge/Desktop/ros2/ws/src/build/action_tutorials/CMakeFiles/list_install_components.dir
+/home/ge/Desktop/ros2/ws/src/build/action_tutorials/CMakeFiles/rebuild_cache.dir
+/home/ge/Desktop/ros2/ws/src/build/action_tutorials/CMakeFiles/edit_cache.dir
+/home/ge/Desktop/ros2/ws/src/build/action_tutorials/CMakeFiles/test.dir
+/home/ge/Desktop/ros2/ws/src/build/action_tutorials/CMakeFiles/action_server.dir
+/home/ge/Desktop/ros2/ws/src/build/action_tutorials/CMakeFiles/fibonacci_action_server.dir
+/home/ge/Desktop/ros2/ws/src/build/action_tutorials/CMakeFiles/action_tutorials_uninstall.dir
+/home/ge/Desktop/ros2/ws/src/build/action_tutorials/CMakeFiles/uninstall.dir

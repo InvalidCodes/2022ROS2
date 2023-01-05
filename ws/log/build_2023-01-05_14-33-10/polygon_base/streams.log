@@ -1,0 +1,25 @@
+[0.128s] Invoking command in '/home/ge/Desktop/ros2/ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/polygon_base -- -j16 -l16
+[0.607s] [100%] Built target area_node
+[0.634s] Invoked command in '/home/ge/Desktop/ros2/ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/polygon_base -- -j16 -l16
+[0.694s] Invoking command in '/home/ge/Desktop/ros2/ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/ge/Desktop/ros2/ws/build/polygon_base
+[1.426s] -- Install configuration: ""
+[1.426s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/lib/polygon_base/area_node
+[1.426s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/include
+[1.426s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/include/polygon_base
+[1.426s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[1.427s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[1.427s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[1.427s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[1.427s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[1.427s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/polygon_base/environment/path.sh
+[1.427s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/polygon_base/environment/path.dsv
+[1.427s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/polygon_base/local_setup.bash
+[1.427s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/polygon_base/local_setup.sh
+[1.427s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/polygon_base/local_setup.zsh
+[1.427s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/polygon_base/local_setup.dsv
+[1.427s] -- Installing: /home/ge/Desktop/ros2/ws/install/polygon_base/share/polygon_base/package.dsv
+[1.428s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[1.428s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.428s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[1.428s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[1.428s] -- Up-to-date: /home/ge/Desktop/ros2/ws/install/polygon_base/share/polygon_base/package.xml

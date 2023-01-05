@@ -1,0 +1,6 @@
+[0.103s] Invoking command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_composition -- -j16 -l16
+[0.418s] [ 33%] Built target composition_nodes
+[0.418s] [ 55%] Built target composition_composed
+[0.418s] [ 77%] Built target composition_publisher
+[0.418s] [100%] Built target composition_subscriber
+[0.441s] Invoked command in '/home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/examples_rclcpp_minimal_composition -- -j16 -l16

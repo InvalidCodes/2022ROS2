@@ -1,0 +1,3 @@
+Invoking command in '/home/ge/Desktop/ros2/ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/cpp_parameters -- -j16 -l16
+Invoked command in '/home/ge/Desktop/ros2/ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/cpp_parameters -- -j16 -l16
+Invoking command in '/home/ge/Desktop/ros2/ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/ge/Desktop/ros2/ws/build/cpp_parameters

@@ -1,0 +1,2 @@
+Invoking command in '/home/ge/Desktop/ros2/ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/action_tutorials_interfaces -- -j16 -l16
+Invoked command in '/home/ge/Desktop/ros2/ws/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/build/action_tutorials_interfaces -- -j16 -l16

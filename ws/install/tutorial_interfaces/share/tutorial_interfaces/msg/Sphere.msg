@@ -1,2 +1,1 @@
-geometry_msgs/Point center
-float64 radius
+/home/ge/Desktop/ros2/ws/src/tutorial_interfaces/msg/Sphere.msg

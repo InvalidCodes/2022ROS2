@@ -1,0 +1,2 @@
+Invoking command in '/home/ge/Desktop/ros2/ws/build/urdf_tutorial': _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/urdf_tutorial
+Invoked command in '/home/ge/Desktop/ros2/ws/build/urdf_tutorial' returned '1': _=/usr/bin/env /usr/bin/cmake /home/ge/Desktop/ros2/ws/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ge/Desktop/ros2/ws/install/urdf_tutorial

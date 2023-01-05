@@ -1,0 +1,37 @@
+[0.581s] Invoking command in '/home/ge/Desktop/ros2/ws/src/fishbot_description': PYTHONPATH=/home/ge/Desktop/ros2/ws/src/build/fishbot_description/prefix_override:/home/ge/Desktop/ros2/ws/src/install/fishbot_description/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../build/fishbot_description build --build-base /home/ge/Desktop/ros2/ws/src/build/fishbot_description/build install --record /home/ge/Desktop/ros2/ws/src/build/fishbot_description/install.log --install-scripts $base/lib/fishbot_description --single-version-externally-managed
+[0.771s] running egg_info
+[0.772s] creating ../build/fishbot_description/fishbot_description.egg-info
+[0.772s] writing ../build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[0.772s] writing dependency_links to ../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[0.772s] writing entry points to ../build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[0.772s] writing requirements to ../build/fishbot_description/fishbot_description.egg-info/requires.txt
+[0.772s] writing top-level names to ../build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[0.786s] writing manifest file '../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.815s] reading manifest file '../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.816s] writing manifest file '../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.816s] running build
+[0.816s] running build_py
+[0.816s] creating /home/ge/Desktop/ros2/ws/src/build/fishbot_description/build
+[0.816s] creating /home/ge/Desktop/ros2/ws/src/build/fishbot_description/build/lib
+[0.816s] creating /home/ge/Desktop/ros2/ws/src/build/fishbot_description/build/lib/fishbot_description
+[0.816s] copying fishbot_description/__init__.py -> /home/ge/Desktop/ros2/ws/src/build/fishbot_description/build/lib/fishbot_description
+[0.816s] running install
+[0.817s] running install_lib
+[0.817s] creating /home/ge/Desktop/ros2/ws/src/install/fishbot_description/lib/python3.8/site-packages/fishbot_description
+[0.817s] copying /home/ge/Desktop/ros2/ws/src/build/fishbot_description/build/lib/fishbot_description/__init__.py -> /home/ge/Desktop/ros2/ws/src/install/fishbot_description/lib/python3.8/site-packages/fishbot_description
+[0.818s] byte-compiling /home/ge/Desktop/ros2/ws/src/install/fishbot_description/lib/python3.8/site-packages/fishbot_description/__init__.py to __init__.cpython-38.pyc
+[0.819s] running install_data
+[0.819s] creating /home/ge/Desktop/ros2/ws/src/install/fishbot_description/share/ament_index
+[0.819s] creating /home/ge/Desktop/ros2/ws/src/install/fishbot_description/share/ament_index/resource_index
+[0.819s] creating /home/ge/Desktop/ros2/ws/src/install/fishbot_description/share/ament_index/resource_index/packages
+[0.819s] copying resource/fishbot_description -> /home/ge/Desktop/ros2/ws/src/install/fishbot_description/share/ament_index/resource_index/packages
+[0.819s] copying package.xml -> /home/ge/Desktop/ros2/ws/src/install/fishbot_description/share/fishbot_description
+[0.819s] creating /home/ge/Desktop/ros2/ws/src/install/fishbot_description/share/fishbot_description/launch
+[0.820s] copying launch/display_rviz2.launch.py -> /home/ge/Desktop/ros2/ws/src/install/fishbot_description/share/fishbot_description/launch
+[0.820s] creating /home/ge/Desktop/ros2/ws/src/install/fishbot_description/share/fishbot_description/urdf
+[0.820s] copying urdf/fishbot_base.urdf -> /home/ge/Desktop/ros2/ws/src/install/fishbot_description/share/fishbot_description/urdf
+[0.820s] running install_egg_info
+[0.820s] Copying ../build/fishbot_description/fishbot_description.egg-info to /home/ge/Desktop/ros2/ws/src/install/fishbot_description/lib/python3.8/site-packages/fishbot_description-0.0.0-py3.8.egg-info
+[0.821s] running install_scripts
+[0.834s] writing list of installed files to '/home/ge/Desktop/ros2/ws/src/build/fishbot_description/install.log'
+[0.850s] Invoked command in '/home/ge/Desktop/ros2/ws/src/fishbot_description' returned '0': PYTHONPATH=/home/ge/Desktop/ros2/ws/src/build/fishbot_description/prefix_override:/home/ge/Desktop/ros2/ws/src/install/fishbot_description/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../build/fishbot_description build --build-base /home/ge/Desktop/ros2/ws/src/build/fishbot_description/build install --record /home/ge/Desktop/ros2/ws/src/build/fishbot_description/install.log --install-scripts $base/lib/fishbot_description --single-version-externally-managed

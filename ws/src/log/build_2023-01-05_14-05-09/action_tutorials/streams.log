@@ -1,0 +1,27 @@
+[0.013s] Invoking command in '/home/ge/Desktop/ros2/ws/src/build/action_tutorials': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/src/build/action_tutorials -- -j16 -l16
+[0.033s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.053s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.208s] -- Found action_tutorials_interfaces: 0.0.0 (/home/ge/Desktop/ros2/ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[0.223s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.226s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.227s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[0.580s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.672s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.700s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.701s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.801s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[0.827s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.914s] -- Configuring done
+[0.927s] -- Generating done
+[0.929s] -- Build files have been written to: /home/ge/Desktop/ros2/ws/src/build/action_tutorials
+[0.951s] [35m[1mScanning dependencies of target action_server[0m
+[0.966s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[0.966s] [ 75%] Built target fibonacci_action_server
+[1.042s] [01m[K/home/ge/Desktop/ros2/ws/src/action_tutorials/src/fibonacci_action_server.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kaction_tutorials_cpp/visibility_control.h: No such file or directory
+[1.042s]    10 | #include [01;31m[K"action_tutorials_cpp/visibility_control.h"[m[K
+[1.042s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.042s] compilation terminated.
+[1.043s] make[2]: *** [CMakeFiles/action_server.dir/build.make:63: CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o] Error 1
+[1.044s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/action_server.dir/all] Error 2
+[1.044s] make: *** [Makefile:141: all] Error 2
+[1.046s] Invoked command in '/home/ge/Desktop/ros2/ws/src/build/action_tutorials' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/ge/Desktop/ros2/ws/src/build/action_tutorials -- -j16 -l16
