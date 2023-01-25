@@ -1,4 +1,6 @@
-# Quick Start
+# ROS2
+
+## Quick Start
 
 ### Ubuntu和ROS版本对应关系
 
@@ -121,6 +123,8 @@ ros2 run turtlesim turtlesim_node --ros-args --params-file ./turtlesim.yaml
 
 client-server model
 
+goal: an instance of an action
+
 ![](/home/ge/Pictures/Action-SingleActionClient.gif)
 
 ```shell
@@ -202,8 +206,6 @@ echo "source /{工作空间路径}/install/setup.zsh" >> ~/.zshrc
 
 
 
-
-
 ## IDE
 
 #### vscode配置路径
@@ -260,6 +262,14 @@ ros2 run <包名> <程序名> #ros2 run pkg03_hellovscode_cpp hellovscode2
 
 动作通信：持续- .action （两个---分割）
 
+```C++
+#request
+---
+#result
+---
+#feedback
+```
+
 参数服务：客户端可操作服务端- 无需定义接口文件，客户端和服务端操作接口对象
 
 
@@ -285,4 +295,106 @@ ros2 run examples_rclcpp_minimal_publisher publisher_member_function
 cd src
 ros2 pkg create cpp01_topic --build-type ament_cmake --dependencies rclcpp std_msgs base_interfaces_demo --node-name demo01_talker_str
 ```
+
+
+
+### Parameter注释
+
+```c++
+auto param_desc = rcl_interfaces::msg::ParameterDescriptor{};
+    param_desc.description = "This parameter is mine!";
+```
+
+```shell
+ros2 param describe /minimal_param_node my_parameter
+```
+
+更改参数：编写 launch.py
+
+```shell
+ros2 param set
+```
+
+launch
+
+```shell
+ros2 launch <包名> <_launch.py>
+```
+
+
+
+# ROS1
+
+### Ubuntu 20.04 rosdep 解决
+
+http://www.autolabor.com.cn/book/ROSTutorials/chapter1/12-roskai-fa-gong-ju-an-zhuang/124-an-zhuang-ros.html
+
+### vscode基本流程
+
+http://www.autolabor.com.cn/book/ROSTutorials/chapter1/14-ros-ji-cheng-kai-fa-huan-jing-da-jian/142-an-zhuang-vscode.html
+
+### URDF
+
+语法：
+
+http://www.autolabor.com.cn/book/ROSTutorials/di-6-zhang-ji-qi-ren-xi-tong-fang-zhen/62-fang-zhen-urdf-ji-cheng-rviz/624-urdfyu-fa-xiang-jie-02-link.html
+
+## XACRO转URDF                                                                                                                                 
+
+```shell
+roscore
+cd ws/src/包名/urdf/xacro
+rosrun xacro xacro demo.xacro > demo.urdf
+```
+
+
+
+## Gazebo
+
+```shell
+. devel/setup.zsh
+roslaunch <urdf_gazebo包名> <demo.launch> 
+```
+
+http://www.autolabor.com.cn/book/ROSTutorials/di-6-zhang-ji-qi-ren-xi-tong-fang-zhen/62-fang-zhen-urdf-ji-cheng-rviz.html
+
+
+
+## 路径规划算法
+
+
+
+
+
+## RVIZ
+
+https://blog.51cto.com/u_15473553/5214839
+
+
+
+## Gazebo
+
+https://www.ncnynl.com/archives/202110/4810.html
+
+### SDF
+
+
+
+# 导航
+
+#### 全局地图
+
+#### 自身定位
+
+#### 路径规划 
+
+全局：A*，dijkstra
+
+局部：teb
+
+#### 运动控制
+
+#### 环境感知
+
+
 
